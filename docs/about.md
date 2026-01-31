@@ -56,7 +56,7 @@ Minecraft的开源替代品。
 
 **Steam**：[1553161269](https://steamcommunity.com/id/baiyuyinlu28/)
 
-**GitHub**: [MarchBeta2087](https://github.com/MarchBeta2087)
+**GitHub**：[MarchBeta2087](https://github.com/MarchBeta2087)
 
 ## 友情链接
 
