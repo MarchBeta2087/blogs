@@ -9,17 +9,25 @@ on:
 permissions:
     contents: write
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v3
-        - name: Set up Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: '18'
-        - name: Install dependencies
-          run: npm install
-        - name: Run tests
-          run: npm test
-        - name: Build project
-          run: npm run build
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+
+      - run: pip install mkdocs-material
+
+      # 明确指定配置文件
+      - run: mkdocs gh-deploy --force --config-file mkdocs.yml
