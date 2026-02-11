@@ -103,3 +103,7 @@ DeepSeek 的新 1M 长文本大模型（不太可能是 v4。v3.2 的某个版�
 去年的 Gemini 3 Pro/Flash 表现出色，可以说是全球顶尖，但现在 DeepSeek 推出了新模型之后，国内已经有能与 Gemini 3 抗衡的 AI 模型了。我非常期待国产模型能有更出色的表现，甚至超越 Google 的 Gemini、OpenAI 的 GPT、Anthropic 的 Claude。
 
 2026-02-11 20:41 CST
+
+更新 2026-02-11 20:51 CST: 
+
+我已将此续集上传到 `linux.do`: [https://linux.do/t/topic/1605945](https://linux.do/t/topic/1605945)
