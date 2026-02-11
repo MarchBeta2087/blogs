@@ -58,4 +58,6 @@
 
 2026-02-11 18:52 CST
 
-稍后上传到 `linux.do`。
+更新 2026-02-11 19:03 CST: 
+
+我已将此文章上传到 `linux.do`: [https://linux.do/t/topic/1605598](https://linux.do/t/topic/1605598)
