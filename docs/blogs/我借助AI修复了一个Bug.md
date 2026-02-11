@@ -54,4 +54,6 @@ cv2.error: OpenCV(4.13.0) :-1: error: (-5:Bad argument) in function 'fillPoly'
 
 2026-02-11 13:23 CST
 
-稍后我会将此文章发布到 linux.do 上。
+更新 2026-02-11 14:11 CST: 
+
+我已将此文章上传到 [https://linux.do/t/topic/1604448](https://linux.do/t/topic/1604448)。
