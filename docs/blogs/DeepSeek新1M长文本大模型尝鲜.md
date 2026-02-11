@@ -4,7 +4,7 @@
 
 链接: [https://linux.do/t/topic/1605152](https://linux.do/t/topic/1605152)
 
-我打开 DeepSeek 网页端，上传了 30 个 Markdown 文件（总共 57 万字节，如果按 1 个 Token = 2-3 字节来算，应该会在 19 万到 27.5 万 Tokens 之间。取自我自创的 GSCU 设定集）
+我打开 DeepSeek 网页端，上传了 30 个 Markdown 文件（总共 57 万字节，如果按 1 个 Token = 2-3 字节来算，应该会在 19 万到 28.5 万 Tokens 之间。取自我自创的 GSCU 设定集）
 
 ![30 个 Markdown 文件](../images/屏幕截图%202026-02-11%20181936.png)
 
@@ -107,3 +107,7 @@ DeepSeek 的新 1M 长文本大模型（不太可能是 v4。v3.2 的某个版�
 更新 2026-02-11 20:51 CST: 
 
 我已将此续集上传到 `linux.do`: [https://linux.do/t/topic/1605945](https://linux.do/t/topic/1605945)
+
+勘误 2026-02-11 23:02 CST：
+
+原文"总共 57 万字节，如果按 1 个 Token = 2-3 字节来算，应该会在 19 万到 27.5 万 Tokens 之间。"由于当时的疏忽，28.5 万写成了 27.5 万，现已更正。
